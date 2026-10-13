@@ -4,46 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- ✅ SEO Title -->
-  <title>AL HARAM Bedding Store | Bridal Bedsheets, Comforter Sets & Home Bedding in Pakistan</title>
+  <title>AL HARAM Bedding Store | Premium Bridal Bedsheets, Comforters & Home Bedding in Pakistan</title>
 
-  <!-- ✅ Meta Description -->
-  <meta name="description" content="Shop premium bridal bedding sets, cotton bedsheets, comforter sets, curtains, pillows & Irani qaleen at AL HARAM Bedding Store, Lahore. Easy WhatsApp ordering, delivery all over Pakistan. COD available." />
+  <meta name="description" content="Discover luxury bedding at AL HARAM Bedding Store, Lahore. Premium bridal sets, cotton bedsheets, comforter sets, curtains, pillows & Irani qaleen. Delivery all Pakistan. COD available. WhatsApp: 0326 8866614" />
 
-  <!-- ✅ Keywords -->
-  <meta name="keywords" content="bedsheets in Pakistan, bridal bedding set Lahore, velvet bedsheet price, comforter set Pakistan, cotton bedsheet, fitted sheet, mattress cover, pillow filling, cushion filling, curtains Pakistan, Irani qaleen, king size bedsheet" />
+  <meta name="keywords" content="bridal bedding set Pakistan, luxury bedsheets Lahore, velvet bridal set, cotton bedsheet price, comforter set Pakistan, fitted sheet, mattress cover, curtains Pakistan, Irani qaleen, king size bedsheet, home bedding store" />
 
-  <!-- ✅ Author -->
   <meta name="author" content="AL HARAM Bedding Store" />
 
-  <!-- ✅ Open Graph (Facebook/WhatsApp share ke liye) -->
-  <meta property="og:title" content="AL HARAM Bedding Store | Premium Bedsheets & Bridal Sets" />
-  <meta property="og:description" content="Bridal sets, cotton bedsheets, comforter sets, curtains aur bohot kuch. Delivery all Pakistan. WhatsApp: 03268866614" />
+  <meta property="og:title" content="AL HARAM Bedding Store | Premium Bedding Collection" />
+  <meta property="og:description" content="Luxury bridal sets, cotton bedsheets, comforters & more. Delivery all Pakistan. WhatsApp: 0326 8866614" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://hamzashahid2926.github.io/AL-Haram-Bedding-Store/" />
-  <meta property="og:image" content="https://hamzashahid2926.github.io/AL-Haram-Bedding-Store/bridal-set.jpg" />
 
-  <!-- ✅ Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="AL HARAM Bedding Store" />
-  <meta name="twitter:description" content="Premium bedding collection in Pakistan. WhatsApp: 03268866614" />
-
-  <!-- ✅ Canonical -->
   <link rel="canonical" href="https://hamzashahid2926.github.io/AL-Haram-Bedding-Store/" />
 
-  <!-- ✅ Schema.org (Google Business Info) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Store",
     "name": "AL HARAM Bedding Store",
-    "image": "https://hamzashahid2926.github.io/AL-Haram-Bedding-Store/bridal-set.jpg",
-    "description": "Premium bedding store offering bridal sets, cotton bedsheets, comforter sets, curtains, pillows and Irani qaleen with delivery across Pakistan.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Lahore",
-      "addressCountry": "PK"
-    },
+    "description": "Premium bedding store offering bridal sets, cotton bedsheets, comforter sets, curtains, pillows and Irani qaleen.",
+    "address": {"@type": "PostalAddress","addressLocality": "Lahore","addressCountry": "PK"},
     "telephone": "+923268866614",
     "openingHours": "Mo-Su 09:00-21:00",
     "priceRange": "Rs. 200 - Rs. 21,000",
@@ -52,491 +38,770 @@
   </script>
 
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Segoe UI', Tahoma, sans-serif;
-      color: #333;
-      line-height: 1.6;
-      background: #faf8f5;
+    :root {
+      --black: #111111;
+      --charcoal: #1c1c1c;
+      --cream: #f7f3ec;
+      --cream-dark: #efe7d9;
+      --gold: #b8894a;
+      --gold-light: #d4a76a;
+      --white: #ffffff;
+      --grey: #6b6b6b;
+      --grey-light: #999;
+      --border: #e5ddd0;
     }
-    a { text-decoration: none; color: inherit; }
 
-    /* Header */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: var(--charcoal);
+      line-height: 1.7;
+      background: var(--cream);
+      font-weight: 300;
+      overflow-x: hidden;
+    }
+    a { text-decoration: none; color: inherit; transition: 0.3s; }
+    img { max-width: 100%; display: block; }
+
+    h1, h2, h3, h4 { font-family: 'Playfair Display', serif; font-weight: 500; letter-spacing: 0.3px; }
+
+    /* TOP BAR */
+    .topbar {
+      background: var(--black);
+      color: var(--cream);
+      text-align: center;
+      padding: 8px 15px;
+      font-size: 0.72rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+    .topbar span { margin: 0 10px; }
+    .topbar .dot { color: var(--gold); }
+
+    /* HEADER */
     header {
-      background: #fff;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-      padding: 15px 20px;
+      background: var(--white);
+      padding: 22px 30px;
+      border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
       z-index: 100;
+      transition: 0.3s;
     }
     .header-inner {
-      max-width: 1100px;
+      max-width: 1300px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .logo {
-      font-size: 1.3rem;
-      font-weight: 700;
-      color: #7a5c2e;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: var(--black);
+      letter-spacing: 2px;
     }
-    .logo span { color: #c9a227; }
-    .header-contact {
-      font-size: 0.9rem;
-      color: #666;
-    }
-    .header-contact a { color: #25D366; font-weight: 600; }
-
-    /* Hero */
-    .hero {
-      text-align: center;
-      padding: 60px 20px 50px;
-      background: linear-gradient(135deg, #fdf6e3 0%, #f7e7c4 100%);
-    }
-    .hero .tagline {
-      color: #7a5c2e;
-      font-size: 0.95rem;
-      letter-spacing: 1px;
-      margin-bottom: 15px;
+    .logo span { color: var(--gold); }
+    .logo-sub {
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 4px;
+      color: var(--grey);
+      display: block;
+      margin-top: 2px;
       text-transform: uppercase;
     }
+    nav { display: flex; gap: 35px; }
+    nav a {
+      font-size: 0.82rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--charcoal);
+      position: relative;
+      font-weight: 400;
+    }
+    nav a::after {
+      content: '';
+      position: absolute;
+      bottom: -6px; left: 0;
+      width: 0; height: 1px;
+      background: var(--gold);
+      transition: 0.4s;
+    }
+    nav a:hover::after { width: 100%; }
+    nav a:hover { color: var(--gold); }
+
+    .header-actions {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+    .header-actions a {
+      font-size: 1rem;
+      color: var(--charcoal);
+    }
+    .header-actions a:hover { color: var(--gold); }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      min-height: 88vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: var(--white);
+      background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.65)),
+        url('https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=1600&q=80') center/cover no-repeat;
+      padding: 60px 20px;
+    }
+    .hero-content { max-width: 850px; animation: fadeUp 1.2s ease; }
+    .hero-tagline {
+      font-size: 0.75rem;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      margin-bottom: 25px;
+      font-weight: 400;
+    }
     .hero h1 {
-      font-size: 2.2rem;
-      color: #3d2b0f;
-      margin-bottom: 20px;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
-      line-height: 1.3;
+      font-size: 4rem;
+      line-height: 1.15;
+      margin-bottom: 25px;
+      font-weight: 500;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold-light);
+      font-weight: 400;
     }
     .hero p {
+      font-size: 1rem;
+      color: #e8e2d6;
+      margin-bottom: 40px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
       max-width: 600px;
-      margin: 0 auto 30px;
-      color: #555;
+      margin-left: auto;
+      margin-right: auto;
     }
+    .hero-buttons { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+
     .btn {
       display: inline-block;
-      padding: 14px 32px;
-      border-radius: 50px;
-      font-weight: 600;
-      transition: 0.3s;
+      padding: 15px 42px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      font-weight: 500;
       cursor: pointer;
-      border: none;
-      font-size: 1rem;
+      border: 1px solid transparent;
+      transition: 0.4s;
+      border-radius: 0;
     }
-    .btn-primary {
-      background: #c9a227;
-      color: #fff;
+    .btn-gold {
+      background: var(--gold);
+      color: var(--white);
+      border-color: var(--gold);
     }
-    .btn-primary:hover { background: #a8871d; }
-    .btn-whatsapp {
-      background: #25D366;
-      color: #fff;
-      margin-left: 10px;
+    .btn-gold:hover {
+      background: transparent;
+      color: var(--gold);
     }
-    .btn-whatsapp:hover { background: #1da851; }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border-color: var(--white);
+    }
+    .btn-outline:hover {
+      background: var(--white);
+      color: var(--black);
+    }
+    .btn-dark {
+      background: var(--black);
+      color: var(--white);
+      border-color: var(--black);
+    }
+    .btn-dark:hover {
+      background: var(--gold);
+      border-color: var(--gold);
+    }
 
-    .hero-features {
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      margin-top: 30px;
-      flex-wrap: wrap;
-      font-size: 0.9rem;
-      color: #7a5c2e;
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
     }
-    .hero-features span::before { content: "✓ "; color: #25D366; font-weight: bold; }
 
-    /* Sections */
-    section { padding: 60px 20px; }
-    .container { max-width: 1100px; margin: 0 auto; }
+    /* SECTIONS */
+    section { padding: 90px 25px; }
+    .container { max-width: 1300px; margin: 0 auto; }
+
+    .section-head { text-align: center; margin-bottom: 60px; }
+    .section-eyebrow {
+      font-size: 0.72rem;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 15px;
+      font-weight: 400;
+    }
     .section-title {
-      text-align: center;
-      font-size: 1.8rem;
-      color: #3d2b0f;
-      margin-bottom: 10px;
+      font-size: 2.6rem;
+      color: var(--black);
+      margin-bottom: 15px;
+      font-weight: 500;
     }
-    .section-sub {
-      text-align: center;
-      color: #777;
-      margin-bottom: 40px;
+    .section-title em { font-style: italic; color: var(--gold); }
+    .section-desc {
+      color: var(--grey);
+      font-size: 0.95rem;
+      max-width: 600px;
+      margin: 0 auto;
+      font-weight: 300;
     }
 
-    /* Categories */
+    /* CATEGORIES */
     .categories-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-    }
-    .category-card {
-      background: #fff;
-      padding: 28px 20px;
-      border-radius: 14px;
-      text-align: center;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.05);
-      transition: 0.3s;
-      border: 1px solid #f0e6d2;
-    }
-    .category-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 22px rgba(0,0,0,0.1);
-    }
-    .category-card .icon {
-      font-size: 2rem;
-      margin-bottom: 10px;
-    }
-    .category-card h3 {
-      color: #7a5c2e;
-      font-size: 1.05rem;
-      margin-bottom: 6px;
-    }
-    .category-card p {
-      color: #888;
-      font-size: 0.85rem;
-    }
-
-    /* Products */
-    .products-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 25px;
     }
-    .product-card {
-      background: #fff;
-      border-radius: 14px;
+    .cat-card {
+      position: relative;
       overflow: hidden;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.06);
-      transition: 0.3s;
+      height: 420px;
+      cursor: pointer;
+      background: var(--cream-dark);
+    }
+    .cat-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 1.2s ease;
+    }
+    .cat-card:hover img { transform: scale(1.08); }
+    .cat-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0) 60%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 35px 30px;
+      color: var(--white);
+    }
+    .cat-overlay h3 {
+      font-size: 1.7rem;
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+    .cat-overlay p {
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      font-weight: 400;
+    }
+    .cat-overlay .arrow {
+      margin-top: 15px;
+      font-size: 0.85rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--white);
+      border-bottom: 1px solid var(--gold);
+      display: inline-block;
+      padding-bottom: 3px;
+      width: fit-content;
+      transition: 0.4s;
+    }
+    .cat-card:hover .arrow { color: var(--gold-light); }
+
+    /* PRODUCTS */
+    .products-section { background: var(--white); }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+    }
+    .product-card {
+      background: var(--cream);
+      overflow: hidden;
+      transition: 0.4s;
+      border: 1px solid transparent;
     }
     .product-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      border-color: var(--gold);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.08);
     }
-    .product-card img {
+    .product-img {
+      position: relative;
+      height: 300px;
+      overflow: hidden;
+      background: var(--cream-dark);
+    }
+    .product-img img {
       width: 100%;
-      height: 220px;
+      height: 100%;
       object-fit: cover;
-      background: #f0e6d2;
+      transition: transform 1s ease;
     }
-    .product-info { padding: 18px; }
+    .product-card:hover .product-img img { transform: scale(1.06); }
+    .product-badge {
+      position: absolute;
+      top: 15px; left: 15px;
+      background: var(--black);
+      color: var(--white);
+      font-size: 0.65rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      font-weight: 400;
+    }
+    .product-badge.gold { background: var(--gold); }
+
+    .product-info { padding: 25px 22px; text-align: center; }
     .product-info h3 {
-      font-size: 1.05rem;
-      color: #3d2b0f;
-      margin-bottom: 6px;
+      font-size: 1.15rem;
+      color: var(--black);
+      margin-bottom: 10px;
+      font-weight: 500;
+      min-height: 45px;
     }
     .product-info .price {
-      color: #c9a227;
-      font-size: 1.2rem;
-      font-weight: 700;
-      margin: 8px 0;
+      font-family: 'Playfair Display', serif;
+      color: var(--gold);
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      letter-spacing: 0.5px;
     }
     .product-info .desc {
-      font-size: 0.85rem;
-      color: #777;
-      margin-bottom: 12px;
+      font-size: 0.8rem;
+      color: var(--grey);
+      margin-bottom: 18px;
+      font-weight: 300;
+      letter-spacing: 0.3px;
     }
     .product-info .btn {
       width: 100%;
       text-align: center;
-      padding: 10px;
-      font-size: 0.9rem;
+      padding: 12px;
+      font-size: 0.7rem;
+      letter-spacing: 2px;
     }
 
-    /* About / Info Section */
-    .info-section {
-      background: #fff;
-    }
-    .info-grid {
+    /* PROMISE */
+    .promise-section { background: var(--cream); }
+    .promise-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 25px;
-      margin-top: 30px;
-    }
-    .info-box {
-      text-align: center;
-      padding: 25px 15px;
-    }
-    .info-box .icon { font-size: 2rem; margin-bottom: 10px; }
-    .info-box h4 { color: #7a5c2e; margin-bottom: 8px; }
-    .info-box p { color: #777; font-size: 0.9rem; }
-
-    /* Footer */
-    footer {
-      background: #3d2b0f;
-      color: #e8dcc0;
-      padding: 40px 20px 25px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 40px;
       text-align: center;
     }
-    footer h3 {
-      color: #c9a227;
-      margin-bottom: 15px;
-      font-size: 1.3rem;
-    }
-    footer p { margin-bottom: 8px; font-size: 0.9rem; }
-    footer a { color: #c9a227; }
-    .footer-bottom {
-      margin-top: 25px;
-      padding-top: 20px;
-      border-top: 1px solid #5a4520;
-      font-size: 0.8rem;
-      color: #a89672;
-    }
-
-    /* Floating WhatsApp Button */
-    .whatsapp-float {
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-      background: #25D366;
-      color: #fff;
-      width: 60px;
-      height: 60px;
+    .promise-item { padding: 20px; }
+    .promise-icon {
+      width: 70px;
+      height: 70px;
+      border: 1px solid var(--gold);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.8rem;
-      box-shadow: 0 4px 15px rgba(37,211,102,0.5);
+      margin: 0 auto 20px;
+      font-size: 1.5rem;
+      color: var(--gold);
+      transition: 0.4s;
+    }
+    .promise-item:hover .promise-icon {
+      background: var(--gold);
+      color: var(--white);
+    }
+    .promise-item h4 {
+      font-size: 1.1rem;
+      color: var(--black);
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    .promise-item p {
+      font-size: 0.85rem;
+      color: var(--grey);
+      font-weight: 300;
+    }
+
+    /* TESTIMONIALS */
+    .testimonials-section { background: var(--charcoal); color: var(--white); }
+    .testimonials-section .section-title { color: var(--white); }
+    .testimonials-section .section-desc { color: #b0b0b0; }
+    .testi-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+    .testi-card {
+      background: rgba(255,255,255,0.04);
+      padding: 35px 30px;
+      border: 1px solid rgba(184,137,74,0.2);
+      transition: 0.4s;
+    }
+    .testi-card:hover {
+      background: rgba(184,137,74,0.08);
+      border-color: var(--gold);
+    }
+    .testi-stars { color: var(--gold); margin-bottom: 15px; font-size: 0.9rem; letter-spacing: 3px; }
+    .testi-text {
+      font-family: 'Playfair Display', serif;
+      font-style: italic;
+      font-size: 1.05rem;
+      color: #e8e2d6;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+    .testi-name {
+      font-size: 0.8rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 400;
+    }
+    .testi-loc { font-size: 0.75rem; color: #888; margin-top: 3px; }
+
+    /* CTA BANNER */
+    .cta-banner {
+      background:
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+        url('https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=1600&q=80') center/cover no-repeat;
+      text-align: center;
+      color: var(--white);
+      padding: 100px 25px;
+    }
+    .cta-banner h2 {
+      font-size: 2.5rem;
+      margin-bottom: 18px;
+      font-weight: 500;
+    }
+    .cta-banner h2 em { color: var(--gold-light); font-style: italic; }
+    .cta-banner p {
+      color: #d0cabb;
+      margin-bottom: 35px;
+      font-size: 0.95rem;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--black);
+      color: #b8b0a0;
+      padding: 70px 25px 25px;
+    }
+    .footer-grid {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
+      gap: 50px;
+      padding-bottom: 50px;
+      border-bottom: 1px solid #2a2a2a;
+    }
+    .footer-brand .logo {
+      color: var(--white);
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      display: block;
+    }
+    .footer-brand p {
+      font-size: 0.85rem;
+      line-height: 1.9;
+      color: #8e8779;
+      font-weight: 300;
+    }
+    .footer-col h4 {
+      color: var(--gold);
+      font-size: 0.85rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 22px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+    }
+    .footer-col ul { list-style: none; }
+    .footer-col li { margin-bottom: 12px; }
+    .footer-col a {
+      font-size: 0.85rem;
+      color: #b8b0a0;
+      font-weight: 300;
+    }
+    .footer-col a:hover { color: var(--gold); padding-left: 5px; }
+    .footer-contact p {
+      font-size: 0.85rem;
+      margin-bottom: 12px;
+      color: #b8b0a0;
+      font-weight: 300;
+    }
+    .footer-contact strong { color: var(--gold); font-weight: 500; }
+
+    .footer-bottom {
+      max-width: 1300px;
+      margin: 25px auto 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      color: #6b6459;
+      flex-wrap: wrap;
+      gap: 10px;
+      letter-spacing: 1px;
+    }
+
+    /* FLOATING WHATSAPP */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #25D366;
+      color: #fff;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.7rem;
+      box-shadow: 0 6px 20px rgba(37,211,102,0.45);
       z-index: 999;
       transition: 0.3s;
     }
-    .whatsapp-float:hover { transform: scale(1.1); }
+    .whatsapp-float:hover { transform: scale(1.1); color: #fff; }
 
-    /* Mobile */
-    @media (max-width: 600px) {
-      .hero h1 { font-size: 1.5rem; }
-      .header-contact { display: none; }
-      .btn { display: block; width: 100%; margin: 8px 0; }
-      .btn-whatsapp { margin-left: 0; }
-      .section-title { font-size: 1.4rem; }
+    /* RESPONSIVE */
+    @media (max-width: 1024px) {
+      .products-grid { grid-template-columns: repeat(2, 1fr); }
+      .categories-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .hero h1 { font-size: 3rem; }
+    }
+    @media (max-width: 768px) {
+      nav { display: none; }
+      .hero { min-height: 75vh; }
+      .hero h1 { font-size: 2.2rem; }
+      .section-title { font-size: 1.9rem; }
+      .testi-grid { grid-template-columns: 1fr; }
+      .promise-grid { grid-template-columns: 1fr 1fr; gap: 20px; }
+      .header-inner { flex-direction: column; gap: 15px; }
+      section { padding: 60px 20px; }
+    }
+    @media (max-width: 520px) {
+      .products-grid { grid-template-columns: 1fr; }
+      .categories-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; gap: 35px; }
+      .hero h1 { font-size: 1.9rem; }
+      .hero p { font-size: 0.9rem; }
+      .btn { padding: 13px 30px; font-size: 0.7rem; }
+      .cta-banner h2 { font-size: 1.7rem; }
+      .whatsapp-float { width: 52px; height: 52px; font-size: 1.5rem; bottom: 20px; right: 20px; }
+      .topbar { font-size: 0.6rem; letter-spacing: 1px; }
+      .topbar span { margin: 0 5px; }
     }
   </style>
 </head>
 <body>
 
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <span>Delivery All Pakistan</span><span class="dot">◆</span>
+    <span>COD Available</span><span class="dot">◆</span>
+    <span>WhatsApp: 0326 8866614</span>
+  </div>
+
   <!-- HEADER -->
   <header>
     <div class="header-inner">
-      <div class="logo">AL <span>HARAM</span> Bedding Store</div>
-      <div class="header-contact">
-        📞 <a href="tel:+923268866614">0326 8866614</a> | Lahore
+      <a href="#" class="logo">
+        AL <span>HARAM</span>
+        <span class="logo-sub">Bedding Store · Lahore</span>
+      </a>
+      <nav>
+        <a href="#categories">Collections</a>
+        <a href="#products">Products</a>
+        <a href="#promise">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="https://wa.me/923268866614" target="_blank" title="WhatsApp">💬</a>
       </div>
     </div>
   </header>
 
   <!-- HERO -->
   <section class="hero">
-    <p class="tagline">Comfort for your home • Easy ordering across Pakistan</p>
-    <h1>Premium Bedsheets &amp; Bridal Bedding Sets in Pakistan</h1>
-    <p>Discover bedding and home essentials selected to bring softness, warmth and timeless style to your everyday life. Bridal sets, cotton bedsheets, comforter sets, curtains aur bohot kuch.</p>
-    <div>
-      <a href="#products" class="btn btn-primary">Shop the Collection →</a>
-      <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20bedding%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">💬 WhatsApp Us</a>
-    </div>
-    <div class="hero-features">
-      <span>Thoughtful quality</span>
-      <span>Easy ordering</span>
-      <span>Delivery all Pakistan</span>
-      <span>COD available</span>
+    <div class="hero-content">
+      <p class="hero-tagline">Timeless Bedding Collection</p>
+      <h1>Where Comfort Meets <em>Elegance</em></h1>
+      <p>Discover premium bridal sets, cotton bedsheets, comforter sets and home essentials — thoughtfully selected to bring softness and style to your everyday life.</p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn btn-gold">Shop the Collection</a>
+        <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20bedding%20ke%20baare%20mein%20jaanna%20hai" target="_blank" class="btn btn-outline">Order on WhatsApp</a>
+      </div>
     </div>
   </section>
 
   <!-- CATEGORIES -->
-  <section>
+  <section id="categories">
     <div class="container">
-      <h2 class="section-title">Shop by Category</h2>
-      <p class="section-sub">Find your favourites for every room.</p>
+      <div class="section-head">
+        <p class="section-eyebrow">Our Collections</p>
+        <h2 class="section-title">Shop by <em>Category</em></h2>
+        <p class="section-desc">Find your favourites for every room — crafted with care, designed for comfort.</p>
+      </div>
+
       <div class="categories-grid">
-        <div class="category-card">
-          <div class="icon">👰</div>
-          <h3>Bridal Bedding Sets</h3>
-          <p>9 pieces • Velvet & Silk</p>
+        <div class="cat-card">
+          <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80" alt="Bridal Bedding Sets Pakistan" loading="lazy">
+          <div class="cat-overlay">
+            <h3>Bridal Sets</h3>
+            <p>9 Pieces · Velvet & Silk</p>
+            <span class="arrow">Explore →</span>
+          </div>
         </div>
-        <div class="category-card">
-          <div class="icon">🛏️</div>
-          <h3>Cotton Bedsheets</h3>
-          <p>King & Single size</p>
+        <div class="cat-card">
+          <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80" alt="Cotton Bedsheets Pakistan" loading="lazy">
+          <div class="cat-overlay">
+            <h3>Bedsheets</h3>
+            <p>King & Single Size</p>
+            <span class="arrow">Explore →</span>
+          </div>
         </div>
-        <div class="category-card">
-          <div class="icon">📐</div>
-          <h3>Fitted Sheets</h3>
-          <p>Perfect fit for mattress</p>
+        <div class="cat-card">
+          <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=800&q=80" alt="Comforter Sets Pakistan" loading="lazy">
+          <div class="cat-overlay">
+            <h3>Comforters</h3>
+            <p>Warm & Cozy Sets</p>
+            <span class="arrow">Explore →</span>
+          </div>
         </div>
-        <div class="category-card">
-          <div class="icon">🧣</div>
-          <h3>Comforter Sets</h3>
-          <p>Warm & cozy</p>
+        <div class="cat-card">
+          <img src="https://images.unsplash.com/photo-1616627561839-074385245ff6?w=800&q=80" alt="Curtains Pakistan" loading="lazy">
+          <div class="cat-overlay">
+            <h3>Curtains</h3>
+            <p>Elegant Designs</p>
+            <span class="arrow">Explore →</span>
+          </div>
         </div>
-        <div class="category-card">
-          <div class="icon">🛡️</div>
-          <h3>Mattress Covers</h3>
-          <p>Protect your mattress</p>
+        <div class="cat-card">
+          <img src="https://images.unsplash.com/photo-1592785177-3f0e7a5df3dd?w=800&q=80" alt="Irani Qaleen Pakistan" loading="lazy">
+          <div class="cat-overlay">
+            <h3>Irani Qaleen</h3>
+            <p>Premium Quality</p>
+            <span class="arrow">Explore →</span>
+          </div>
         </div>
-        <div class="category-card">
-          <div class="icon">🪶</div>
-          <h3>Pillow & Cushion Fillings</h3>
-          <p>Soft & comfortable</p>
-        </div>
-        <div class="category-card">
-          <div class="icon">🪟</div>
-          <h3>Curtains</h3>
-          <p>Elegant designs</p>
-        </div>
-        <div class="category-card">
-          <div class="icon">🧶</div>
-          <h3>Irani Qaleen</h3>
-          <p>Premium quality</p>
+        <div class="cat-card">
+          <img src="https://images.unsplash.com/photo-1567016432779-094069958ea5?w=800&q=80" alt="Pillow Cushion Fillings Pakistan" loading="lazy">
+          <div class="cat-overlay">
+            <h3>Pillows & Fillings</h3>
+            <p>Soft Comfort</p>
+            <span class="arrow">Explore →</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- PRODUCTS -->
-  <section id="products" style="background:#fff;">
+  <section id="products" class="products-section">
     <div class="container">
-      <h2 class="section-title">Featured Products</h2>
-      <p class="section-sub">Comfortable choices for a more beautiful home.</p>
+      <div class="section-head">
+        <p class="section-eyebrow">Bestsellers</p>
+        <h2 class="section-title">Featured <em>Products</em></h2>
+        <p class="section-desc">Handpicked favourites loved by our customers across Pakistan.</p>
+      </div>
+
       <div class="products-grid">
 
         <div class="product-card">
-          <img src="bridal-set.jpg" alt="Velvet Bridal Bedding Set 9 pieces gold zardozi work in Pakistan" />
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80" alt="Velvet Bridal Bedding Set 9 Pieces Pakistan" loading="lazy">
+            <span class="product-badge gold">Bestseller</span>
+          </div>
           <div class="product-info">
-            <h3>Velvet Bridal Bedding Set (9 Pieces)</h3>
+            <h3>Velvet Bridal Bedding Set</h3>
             <p class="price">Rs. 20,999</p>
-            <p class="desc">Gold zardozi work • 5 colours available</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o%20Ala%ikum%2C%20muj20he%20Bridal%20BeddingAl%20Set%20ke%20abaare%20mein%20ikumjaanna%20hai" class="%btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
+            <p class="desc">9 Pieces · Gold Zardozi Work · 5 Colours</p>
+            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Bridal%20Bedding%20Set%20ke%20baare%20mein%20jaanna%20hai" target="_blank" class="btn btn-dark">Order on WhatsApp</a>
           </div>
         </div>
 
         <div class="product-card">
-          <img src="cotton-bedsheet.jpg" alt="King size cotton bedsheet in Pakistan" />
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&q=80" alt="King Size Cotton Bedsheet Pakistan" loading="lazy">
+          </div>
           <div class="product-info">
-            <h3>Cotton Bedsheet (King / Single)</h3>
+            <h3>Cotton Bedsheet</h3>
             <p class="price">Rs. 1,800</p>
-            <p class="desc">Soft cotton • Available in multiple colours</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Cotton%20Bedsheet%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
+            <p class="desc">King & Single Size · Multiple Colours</p>
+            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Cotton%20Bedsheet%20ke%20baare%20mein%20jaanna%20hai" target="_blank" class="btn btn-dark">Order on WhatsApp</a>
           </div>
         </div>
 
         <div class="product-card">
-          <img src="fitted-sheet.jpg" alt="Fitted sheet for mattress Pakistan" />
-          <div class="product-info">
-            <h3>Fitted Sheet</h3>
-            <p class="price">Rs. 1,600</p>
-            <p class="desc">Perfect fit • Durable fabric</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Fitted%20Sheet%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?w=600&q=80" alt="Cotton Comforter Set Pakistan" loading="lazy">
           </div>
-        </div>
-
-        <div class="product-card">
-          <img src="comforter-set.jpg" alt="Cotton comforter set Pakistan" />
           <div class="product-info">
             <h3>Cotton Comforter Set</h3>
             <p class="price">Rs. 8,800</p>
-            <p class="desc">Warm & cozy • Premium cotton</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o2C%20mujhe%20Comforter%20Set%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
+            <p class="desc">Warm & Cozy · Premium Cotton</p>
+            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Comforter%20Set%20ke%20baare%20mein%20jaanna%20hai" target="_blank" class="btn btn-dark">Order on WhatsApp</a>
           </div>
         </div>
 
         <div class="product-card">
-          <img src="mattress-cover.jpg" alt="Mattress cover Pakistan" />
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?w=600&q=80" alt="Fitted Sheet Pakistan" loading="lazy">
+          </div>
+          <div class="product-info">
+            <h3>Fitted Sheet</h3>
+            <p class="price">Rs. 1,600</p>
+            <p class="desc">Perfect Fit · Durable Fabric</p>
+            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Fitted%20Sheet%20ke%20baare%20mein%20jaanna%20hai" target="_blank" class="btn btn-dark">Order on WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1567016432779-094069958ea5?w=600&q=80" alt="Mattress Cover Pakistan" loading="lazy">
+          </div>
           <div class="product-info">
             <h3>Mattress Cover</h3>
             <p class="price">Rs. 1,800</p>
-            <p class="desc">Protects your mattress • Easy to wash</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Mattress%20Cover%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
+            <p class="desc">Protects Your Mattress · Easy Wash</p>
+            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Mattress%20Cover%20ke%20baare%20mein%20jaanna%20hai" target="_blank" class="btn btn-dark">Order on WhatsApp</a>
           </div>
         </div>
 
         <div class="product-card">
-          <img src="pillow-filling.jpg" alt="Pillow filling Pakistan" />
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=600&q=80" alt="Pillow Filling Pakistan" loading="lazy">
+          </div>
           <div class="product-info">
             <h3>Pillow Filling</h3>
             <p class="price">Rs. 500</p>
-            <p class="desc">Soft & comfortable filling</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Pillow%20Filling%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
+            <p class="desc">Soft & Comfortable</p>
+            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Pillow%20Filling%20ke%20baare%20mein%20jaanna%20hai" target="_blank" class="btn btn-dark">Order on WhatsApp</a>
           </div>
         </div>
 
         <div class="product-card">
-          <img src="cushion-filling.jpg" alt="Cushion filling Pakistan" />
-          <div class="product-info">
-            <h3>Cushion Filling</h3>
-            <p class="price">Rs. 200</p>
-            <p class="desc">Perfect for cushions • Soft material</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Cushion%20Filling%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
+          <div class="product-img">
+            <img src="https://images.unsplash.com/photo-1616627561839-074385245ff6?w=600&q=80" alt="Curtains Pakistan" loading="lazy">
           </div>
-        </div>
-
-        <div class="product-card">
-          <img src="curtains.jpg" alt="Curtains Pakistan" />
           <div class="product-info">
             <h3>Curtains</h3>
-            <p class="price">Starting Rs. 4,199</p>
-            <p class="desc">Elegant designs • Multiple fabrics</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Curtains%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
-          </div>
-        </div>
-
-        <div class="product-card">
-          <img src="irani-qaleen.jpg" alt="Irani qaleen Pakistan" />
-          <div class="product-info">
-            <h3>Irani Qaleen</h3>
-            <p class="price">Starting Rs. 6,999</p>
-            <p class="desc">Premium quality • Traditional design</p>
-            <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20Irani%20Qaleen%20ke%20baare%20mein%20jaanna%20hai" class="btn btn-whatsapp" target="_blank">Order on WhatsApp</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- INFO SECTION -->
-  <section class="info-section">
-    <div class="container">
-      <h2 class="section-title">Why Choose Us</h2>
-      <div class="info-grid">
-        <div class="info-box">
-          <div class="icon">✅</div>
-          <h4>Quality Focused</h4>
-          <p>Premium fabrics & clear product details</p>
-        </div>
-        <div class="info-box">
-          <div class="icon">💬</div>
-          <h4>Easy Ordering</h4>
-          <p>Send your selection on WhatsApp</p>
-        </div>
-        <div class="info-box">
-          <div class="icon">🚚</div>
-          <h4>Delivery All Pakistan</h4>
-          <p>Cash on Delivery available</p>
-        </div>
-        <div class="info-box">
-          <div class="icon">📞</div>
-          <h4>Customer Support</h4>
-          <p>9 AM – 9 PM • Ask us before you buy</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <h3>AL HARAM Bedding Store</h3>
-    <p>📍 Lahore, Pakistan</p>
-    <p>📞 <a href="tel:+923268866614">0326 8866614</a> (WhatsApp & Call)</p>
-    <p>🕘 9 AM – 9 PM (Daily)</p>
-    <p>🚚 Delivery All Pakistan • COD Available</p>
-    <div class="footer-bottom">
-      © 2025 AL HARAM Bedding Store. All rights reserved.
-    </div>
-  </footer>
-
-  <!-- FLOATING WHATSAPP BUTTON -->
-  <a href="https://wa.me/923268866614?text=Assalam%20o%20Alaikum%2C%20mujhe%20bedding%20ke%20baare%20mein%20jaanna%20hai" class="whatsapp-float" target="_blank" aria-label="WhatsApp par rabta karein">💬</a>
-
-</body>
-</html>
+            <p class="price">From Rs. 4,199</p>
+            <p class="desc">Elegant Designs · Multiple Fabrics</p>
+            <a href="https://wa.me/923268866614?text=Assalam%20o%
